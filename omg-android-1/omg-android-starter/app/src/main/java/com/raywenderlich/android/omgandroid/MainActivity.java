@@ -195,7 +195,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         jsonAdapter.getItem(position).optString("cover_i", "");
 
     // create an Intent to take you over to a new DetailActivity
-    Intent detailIntent = new Intent(this, DetailActivity.class);
+    Intent detailIntent = new Intent(this, DetailActivityKotlin.class);
 
     // pack away the data about the cover
     // into your Intent before you head out
