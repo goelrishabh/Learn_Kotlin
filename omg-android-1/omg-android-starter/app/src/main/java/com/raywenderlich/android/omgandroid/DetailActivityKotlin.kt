@@ -63,6 +63,24 @@ class DetailActivityKotlin : AppCompatActivity() {
 
         val coverId = this.intent.extras.getString("coverID")
 
+        /**
+         *
+         * Java/Kotlin
+         *
+         * val len: Int
+         * if(coverId?.length != null) {
+         * len = coverId?.length
+         * } else {
+         * len = 0
+         * }
+         *
+         * OR
+         *
+         * < ?: Elvis Operator >
+         * If the expression to the left of the Elvis operator is not null, it returns the result of the expression.
+         * Otherwise, it returns the expression to the right.
+         *
+         * */
         val len = coverId?.length ?: 0
 
         if (len > 0) {
@@ -92,8 +110,12 @@ class DetailActivityKotlin : AppCompatActivity() {
         menuInflater.inflate(R.menu.main, menu)
 
         val shareItem = menu.findItem(R.id.menu_item_share)
-
-        shareActionProvider = MenuItemCompat.getActionProvider(shareItem) as ShareActionProvider
+        /**
+         * < !! Operator >
+         * If you’re sure a nullable reference is not null, feel free to use the !! operator to dereference your object.
+         * a NullPointerException is thrown if the shareItem variable is null.
+         * */
+        shareActionProvider = MenuItemCompat.getActionProvider(shareItem!!) as ShareActionProvider
 
         setShareIntent()
 
