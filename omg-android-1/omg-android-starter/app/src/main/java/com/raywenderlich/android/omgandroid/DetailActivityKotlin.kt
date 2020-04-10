@@ -77,8 +77,14 @@ class DetailActivityKotlin : AppCompatActivity() {
         shareIntent.type = "text/plain"
         shareIntent.putExtra(Intent.EXTRA_SUBJECT, "Book Recommendation!")
         shareIntent.putExtra(Intent.EXTRA_TEXT, imageURL)
-
         shareActionProvider?.setShareIntent(shareIntent)
+        /**
+         *
+         * Java => if(shareActionProvider != null) shareActionProvider.setShareIntent(shareIntent);
+         * The property or method is only called when the nullable variable is not null.
+         * Kotlin => shareActionProvider?.setShareIntent(shareIntent);
+         * < safe call operator ?. >
+         * */
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
