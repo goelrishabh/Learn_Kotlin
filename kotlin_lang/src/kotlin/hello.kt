@@ -1,3 +1,5 @@
+package kotlin
+
 private val variable: String = "Kotlin"
 
 fun main() {

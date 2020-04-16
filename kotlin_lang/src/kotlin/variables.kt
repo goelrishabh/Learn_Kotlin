@@ -1,3 +1,5 @@
+package kotlin
+
 private val v1 = mutableListOf("A", "B", "C")
 private var v2 = listOf("A", "B", "C")
 
