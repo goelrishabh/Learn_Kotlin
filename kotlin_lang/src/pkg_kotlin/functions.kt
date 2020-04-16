@@ -1,4 +1,4 @@
-package kotlin
+package pkg_kotlin
 
 // A top level function
 fun main() {

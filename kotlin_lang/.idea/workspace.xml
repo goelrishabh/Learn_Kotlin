@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa06a170-c01f-446a-9086-1264ab9ccc78" name="Default Changelist" comment="functions">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/Functions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kotlin/functions.kt" afterDir="false" />
+    <list default="true" id="fa06a170-c01f-446a-9086-1264ab9ccc78" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pkg_kotlin/conditionals.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hello.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/kotlin/hello.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/variables.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/kotlin/variables.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/Functions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg_java/Functions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kotlin/functions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg_kotlin/functions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kotlin/hello.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg_kotlin/hello.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kotlin/variables.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg_kotlin/variables.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -44,7 +44,33 @@
       <recent name="T:\GIT_goelrishabh\Kotlin\Learn_Kotlin\kotlin_lang\src\kotlin" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.FunctionsKt">
+  <component name="RunManager" selected="Kotlin.ConditionalsKt (1)">
+    <configuration name="ConditionalsKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="kotlin_lang" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="pkg_kotlin.ConditionalsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConditionalsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="kotlin_lang" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="kotlin.ConditionalsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FunctionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="kotlin_lang" />
       <option name="VM_PARAMETERS" />
@@ -86,6 +112,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ConditionalsKt (1)" />
+        <item itemvalue="Kotlin.ConditionalsKt" />
         <item itemvalue="Kotlin.FunctionsKt" />
         <item itemvalue="Kotlin.VariablesKt" />
         <item itemvalue="Kotlin.HelloKt" />
@@ -117,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587049413680</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="functions">
+      <created>1587059293642</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587059293642</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,33 +169,42 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="simple hello program" />
     <MESSAGE value="variables" />
-    <option name="LAST_COMMIT_MESSAGE" value="variables" />
+    <MESSAGE value="functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="functions" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="294" y="0" key="CommitChangelistDialog2" timestamp="1587050511244">
+    <state x="432" y="60" key="#com.intellij.ide.util.MemberChooser" timestamp="1587060045358">
       <screen x="0" y="0" width="1280" height="688" />
     </state>
-    <state x="294" y="0" key="CommitChangelistDialog2/0.0.1280.688@0.0.1280.688" timestamp="1587050511244" />
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1587050502498">
+    <state x="432" y="60" key="#com.intellij.ide.util.MemberChooser/0.0.1280.688@0.0.1280.688" timestamp="1587060045358" />
+    <state x="294" y="0" key="CommitChangelistDialog2" timestamp="1587059292167">
       <screen x="0" y="0" width="1280" height="688" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.688@0.0.1280.688" timestamp="1587050502498" />
-    <state width="1237" height="166" key="GridCell.Tab.0.center" timestamp="1587050502498">
+    <state x="294" y="0" key="CommitChangelistDialog2/0.0.1280.688@0.0.1280.688" timestamp="1587059292167" />
+    <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1587060370173">
       <screen x="0" y="0" width="1280" height="688" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.688@0.0.1280.688" timestamp="1587050502498" />
-    <state width="1237" height="166" key="GridCell.Tab.0.left" timestamp="1587050502497">
+    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.688@0.0.1280.688" timestamp="1587060370173" />
+    <state width="1237" height="166" key="GridCell.Tab.0.center" timestamp="1587060370173">
       <screen x="0" y="0" width="1280" height="688" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.688@0.0.1280.688" timestamp="1587050502497" />
-    <state width="1237" height="166" key="GridCell.Tab.0.right" timestamp="1587050502498">
+    <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.688@0.0.1280.688" timestamp="1587060370173" />
+    <state width="1237" height="166" key="GridCell.Tab.0.left" timestamp="1587060370172">
       <screen x="0" y="0" width="1280" height="688" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.688@0.0.1280.688" timestamp="1587050502498" />
-    <state x="233" y="66" key="Vcs.Push.Dialog.v2" timestamp="1587049421504">
+    <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.688@0.0.1280.688" timestamp="1587060370172" />
+    <state width="1237" height="166" key="GridCell.Tab.0.right" timestamp="1587060370173">
       <screen x="0" y="0" width="1280" height="688" />
     </state>
-    <state x="233" y="66" key="Vcs.Push.Dialog.v2/0.0.1280.688@0.0.1280.688" timestamp="1587049421504" />
+    <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.688@0.0.1280.688" timestamp="1587060370173" />
+    <state x="221" y="87" key="IDE.errors.dialog" timestamp="1587060169899">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state x="221" y="87" key="IDE.errors.dialog/0.0.1280.688@0.0.1280.688" timestamp="1587060169899" />
+    <state x="233" y="66" key="Vcs.Push.Dialog.v2" timestamp="1587059295147">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state x="233" y="66" key="Vcs.Push.Dialog.v2/0.0.1280.688@0.0.1280.688" timestamp="1587059295147" />
     <state x="337" y="168" key="com.intellij.ide.util.TipDialog" timestamp="1587048391487">
       <screen x="0" y="0" width="1280" height="688" />
     </state>

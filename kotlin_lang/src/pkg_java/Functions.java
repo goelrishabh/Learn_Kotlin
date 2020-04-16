@@ -1,12 +1,12 @@
-package java;
+package pkg_java;
 
-import kotlin.Foo;
+import pkg_kotlin.Foo;
 
 public class Functions {
 
     public static void main(String[] args) {
 
-        Foo foo = new kotlin.Foo();
+        Foo foo = new Foo();
         foo.memberFun();
 
         System.out.println(sumJava(5));

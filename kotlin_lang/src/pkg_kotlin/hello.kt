@@ -1,4 +1,4 @@
-package kotlin
+package pkg_kotlin
 
 private val variable: String = "Kotlin"
 
