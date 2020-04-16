@@ -1,3 +1,11 @@
+private val variable: String = "Kotlin"
+
 fun main() {
-    println("Hello Kotlin!")
+
+    println("Hello $variable")
+
+    println("Hello ${variable.toUpperCase()}")
+
+    println("Hello ${if (variable.length >= 50) variable else ""}")
+
 }
