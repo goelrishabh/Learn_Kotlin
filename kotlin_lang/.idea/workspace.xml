@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa06a170-c01f-446a-9086-1264ab9ccc78" name="Default Changelist" comment="ExtensionFunc">
-      <change afterPath="$PROJECT_DIR$/src/pkg_kotlin/ExtensionFunc.kt" afterDir="false" />
+    <list default="true" id="fa06a170-c01f-446a-9086-1264ab9ccc78" name="Default Changelist" comment="nullables">
+      <change afterPath="$PROJECT_DIR$/src/pkg_kotlin/SafeCasts.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pkg_kotlin/nullables.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,20 +46,21 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="T:\GIT_goelrishabh\Kotlin\Learn_Kotlin\kotlin_lang\src\kotlin" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.ExtensionFuncKt">
+  <component name="RunManager" selected="Kotlin.SafeCastsKt">
     <configuration name="Exceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pkg_java.Exceptions" />
       <module name="kotlin_lang" />
@@ -50,19 +70,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConditionalsKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="kotlin_lang" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="pkg_kotlin.ConditionalsKt" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -93,14 +100,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoopsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="NullablesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="kotlin_lang" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="pkg_kotlin.LoopsKt" />
+      <option name="MAIN_CLASS_NAME" value="pkg_kotlin.NullablesKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SafeCastsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="kotlin_lang" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="pkg_kotlin.SafeCastsKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -108,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.SafeCastsKt" />
+        <item itemvalue="Kotlin.NullablesKt" />
         <item itemvalue="Kotlin.ExtensionFuncKt" />
         <item itemvalue="Application.Exceptions" />
         <item itemvalue="Kotlin.ExceptionsKt" />
-        <item itemvalue="Kotlin.LoopsKt" />
-        <item itemvalue="Kotlin.ConditionalsKt (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -177,13 +197,12 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="simple hello program" />
@@ -193,56 +212,61 @@
     <MESSAGE value="loops" />
     <MESSAGE value="Exceptions" />
     <MESSAGE value="ExtensionFunc" />
-    <option name="LAST_COMMIT_MESSAGE" value="ExtensionFunc" />
+    <MESSAGE value="nullables" />
+    <option name="LAST_COMMIT_MESSAGE" value="nullables" />
   </component>
   <component name="WindowStateProjectService">
     <state x="432" y="60" key="#com.intellij.ide.util.MemberChooser" timestamp="1587060045358">
       <screen x="0" y="0" width="1280" height="688" />
     </state>
     <state x="432" y="60" key="#com.intellij.ide.util.MemberChooser/0.0.1280.688@0.0.1280.688" timestamp="1587060045358" />
-    <state x="294" y="0" key="CommitChangelistDialog2" timestamp="1587067992612">
+    <state x="294" y="0" key="CommitChangelistDialog2" timestamp="1587392165930">
       <screen x="0" y="0" width="1280" height="688" />
     </state>
-    <state x="294" y="0" key="CommitChangelistDialog2/0.0.1280.688@0.0.1280.688" timestamp="1587067992612" />
+    <state x="294" y="0" key="CommitChangelistDialog2/0.0.1280.688@0.0.1280.688" timestamp="1587392165930" />
     <state x="93" y="93" width="1095" height="503" maximized="true" key="DiffContextDialog" timestamp="1587061611757">
       <screen x="0" y="0" width="1280" height="688" />
     </state>
     <state x="93" y="93" width="1095" height="503" maximized="true" key="DiffContextDialog/0.0.1280.688@0.0.1280.688" timestamp="1587061611757" />
-    <state width="1237" height="155" key="GridCell.Tab.0.bottom" timestamp="1587074028351">
+    <state width="1237" height="155" key="GridCell.Tab.0.bottom" timestamp="1587392668981">
       <screen x="0" y="0" width="1280" height="688" />
     </state>
-    <state width="1237" height="155" key="GridCell.Tab.0.bottom/0.0.1280.688@0.0.1280.688" timestamp="1587074028351" />
-    <state width="1237" height="155" key="GridCell.Tab.0.center" timestamp="1587074028346">
+    <state width="1237" height="155" key="GridCell.Tab.0.bottom/0.0.1280.688@0.0.1280.688" timestamp="1587392668981" />
+    <state width="1237" height="155" key="GridCell.Tab.0.center" timestamp="1587392668980">
       <screen x="0" y="0" width="1280" height="688" />
     </state>
-    <state width="1237" height="155" key="GridCell.Tab.0.center/0.0.1280.688@0.0.1280.688" timestamp="1587074028346" />
-    <state width="1237" height="155" key="GridCell.Tab.0.left" timestamp="1587074028343">
+    <state width="1237" height="155" key="GridCell.Tab.0.center/0.0.1280.688@0.0.1280.688" timestamp="1587392668980" />
+    <state width="1237" height="155" key="GridCell.Tab.0.left" timestamp="1587392668979">
       <screen x="0" y="0" width="1280" height="688" />
     </state>
-    <state width="1237" height="155" key="GridCell.Tab.0.left/0.0.1280.688@0.0.1280.688" timestamp="1587074028343" />
-    <state width="1237" height="155" key="GridCell.Tab.0.right" timestamp="1587074028347">
+    <state width="1237" height="155" key="GridCell.Tab.0.left/0.0.1280.688@0.0.1280.688" timestamp="1587392668979" />
+    <state width="1237" height="155" key="GridCell.Tab.0.right" timestamp="1587392668980">
       <screen x="0" y="0" width="1280" height="688" />
     </state>
-    <state width="1237" height="155" key="GridCell.Tab.0.right/0.0.1280.688@0.0.1280.688" timestamp="1587074028347" />
-    <state x="221" y="87" key="IDE.errors.dialog" timestamp="1587067998812">
+    <state width="1237" height="155" key="GridCell.Tab.0.right/0.0.1280.688@0.0.1280.688" timestamp="1587392668980" />
+    <state x="221" y="87" key="IDE.errors.dialog" timestamp="1587392668110">
       <screen x="0" y="0" width="1280" height="688" />
     </state>
-    <state x="221" y="87" key="IDE.errors.dialog/0.0.1280.688@0.0.1280.688" timestamp="1587067998812" />
+    <state x="221" y="87" key="IDE.errors.dialog/0.0.1280.688@0.0.1280.688" timestamp="1587392668110" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1587074875995">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.688@0.0.1280.688" timestamp="1587074875995" />
     <state x="233" y="66" key="Vcs.Push.Dialog.v2" timestamp="1587065960263">
       <screen x="0" y="0" width="1280" height="688" />
     </state>
     <state x="233" y="66" key="Vcs.Push.Dialog.v2/0.0.1280.688@0.0.1280.688" timestamp="1587065960263" />
-    <state x="337" y="168" key="com.intellij.ide.util.TipDialog" timestamp="1587073682863">
+    <state x="337" y="168" key="com.intellij.ide.util.TipDialog" timestamp="1587075034671">
       <screen x="0" y="0" width="1280" height="688" />
     </state>
-    <state x="337" y="168" key="com.intellij.ide.util.TipDialog/0.0.1280.688@0.0.1280.688" timestamp="1587073682863" />
+    <state x="337" y="168" key="com.intellij.ide.util.TipDialog/0.0.1280.688@0.0.1280.688" timestamp="1587075034671" />
     <state x="297" y="153" key="run.anything.popup" timestamp="1587058394825">
       <screen x="0" y="0" width="1280" height="688" />
     </state>
     <state x="297" y="153" key="run.anything.popup/0.0.1280.688@0.0.1280.688" timestamp="1587058394825" />
-    <state x="303" y="9" width="672" height="678" key="search.everywhere.popup" timestamp="1587060737191">
+    <state x="303" y="9" width="672" height="678" key="search.everywhere.popup" timestamp="1587390676114">
       <screen x="0" y="0" width="1280" height="688" />
     </state>
-    <state x="303" y="9" width="672" height="678" key="search.everywhere.popup/0.0.1280.688@0.0.1280.688" timestamp="1587060737191" />
+    <state x="303" y="9" width="672" height="678" key="search.everywhere.popup/0.0.1280.688@0.0.1280.688" timestamp="1587390676114" />
   </component>
 </project>
