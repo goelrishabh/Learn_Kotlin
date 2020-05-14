@@ -62,6 +62,7 @@ fun main() {
         println("$element at $index")
     }
 
+    aList.forEachIndexed { i, s -> println("$i, $s") }
 
 
 }
