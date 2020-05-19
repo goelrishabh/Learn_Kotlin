@@ -6,8 +6,8 @@ fun main() {
 
     println(name.length)
 
-    println(otherName?.length) // ? Safe call operator
+    println(otherName?.length) // ? Safe call operator result is null
 
-    println(otherName?.length ?: 0) // ? Safe call with elvis operator
+    println(otherName?.length ?: 0) // ? Safe call with elvis operator to specify result other than null
 
 }
